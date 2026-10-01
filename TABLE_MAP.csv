@@ -1,0 +1,9 @@
+table,pdf_page,label,analysis_entry,description
+1,4,tab:concepts,,Conceptual definitions; no numeric computation
+2,18,tab:datasets,,Dataset summary from manuscript
+3,20,tab:hyperparameters,,Hyperparameter settings from manuscript
+4,21,tab:top1_churn,appendix_e/notebooks/01_churn_depth.ipynb,Any-seed N and pairwise 10N Top-1 churn
+5,25,tab:conditional_shapley,analysis_full79.py,Conditional/marginal: N=79 any-seed; 10N=790 pairwise and Top-3 set identity
+6,26,tab:arrhythmia_pilot,appendix_e/notebooks/04_arrhythmia.ipynb,Arrhythmia support/churn summary; distinct denominators
+7,26,tab:instance187_report,,Previously reported query #187; C computation is not rerun by this release
+8,27,tab:background_l2,appendix_e/notebooks/03_background_size.ipynb,"J18 compact L2 B table: four-method range at K25/K50, max at K>=100"

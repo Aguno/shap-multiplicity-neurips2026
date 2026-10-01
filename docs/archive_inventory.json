@@ -1,0 +1,78 @@
+{
+  "archive_download_urls": {},
+  "archives": [
+    {
+      "archive": "results_tree.zip",
+      "folder_after_extract": "results_tree",
+      "files": 56954,
+      "uncompressed_bytes": 1347595269,
+      "archive_bytes": 697733086,
+      "sha256": "9e7904797feb886cd2ce1c3f08c07d26d583e0891daf5165adf161c869b79ecc",
+      "manifest": "results_tree_manifest.csv",
+      "every_member_sha256_verified": true
+    },
+    {
+      "archive": "results_true.zip",
+      "folder_after_extract": "results_true",
+      "files": 1216,
+      "uncompressed_bytes": 22885636,
+      "archive_bytes": 12550527,
+      "sha256": "2bdc8a3991a4c71c130c67fe7a106316c3d1b0e72ca64a1713beb9e7b325599c",
+      "manifest": "results_true_manifest.csv",
+      "every_member_sha256_verified": true
+    },
+    {
+      "archive": "background_results.zip",
+      "folder_after_extract": "background_results",
+      "files": 6439,
+      "uncompressed_bytes": 722384082,
+      "archive_bytes": 436362425,
+      "sha256": "0968a4a73b0f0eddf7f4eca40d0b468cf4246777d91b22290bfcead279182cbf",
+      "manifest": "background_results_manifest.csv",
+      "every_member_sha256_verified": true
+    },
+    {
+      "archive": "results_conditional.zip",
+      "folder_after_extract": "results_conditional",
+      "files": 20,
+      "uncompressed_bytes": 168220,
+      "archive_bytes": 130222,
+      "sha256": "9dca5ac3e8ec8c26acc02fc9fe41c1eaa7f30f2ab9a1d5badf23c162d86722f1",
+      "manifest": "results_conditional_manifest.csv",
+      "every_member_sha256_verified": true
+    },
+    {
+      "archive": "proba.zip",
+      "folder_after_extract": "proba",
+      "files": 19,
+      "uncompressed_bytes": 519491,
+      "archive_bytes": 354955,
+      "sha256": "37956e2d3eb492d754539e718b63a1925b0e50ce543bd54ab808b06f0c4df426",
+      "manifest": "proba_manifest.csv",
+      "every_member_sha256_verified": true
+    },
+    {
+      "archive": "dataset.zip",
+      "folder_after_extract": "dataset",
+      "files": 10,
+      "uncompressed_bytes": 7044165,
+      "archive_bytes": 1194930,
+      "sha256": "dcd17ff337d1bcd1fd48f4714d177cc361e30ed8fb2d6d38f2f57f9b5c5d9a87",
+      "manifest": "dataset_manifest.csv",
+      "every_member_sha256_verified": true
+    },
+    {
+      "archive": "models_cpu.zip",
+      "folder_after_extract": "models_cpu",
+      "files": 2,
+      "uncompressed_bytes": 1109144,
+      "archive_bytes": 999352,
+      "sha256": "164294bf92d1d9d47a6b711eb877c0f10e9d49142377c0778f6698c66cfd3259",
+      "manifest": "models_cpu_manifest.csv",
+      "every_member_sha256_verified": true
+    }
+  ],
+  "archive_project_url": "https://osf.io/qa9fk/",
+  "archive_public_access_verified": false,
+  "combined_archive_note": "A combined ZIP is planned. Its uploaded filename, contents, and checksum have not been independently verified; hashes below refer to the seven individually prepared archives."
+}

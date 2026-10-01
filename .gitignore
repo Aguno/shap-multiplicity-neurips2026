@@ -1,0 +1,64 @@
+# Downloaded research inputs are distributed separately.
+/results_tree/
+/results_true/
+/background_results/
+/results_conditional/
+/proba/
+/dataset/
+/models_cpu/
+/shap_values/
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.zip
+*.tar.gz
+*.partial
+
+# Local environments and notebook caches.
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Local credentials and assistant configuration.
+.env
+.env.*
+!.env.example
+.claude/
+.codex/
+.agents/
+AGENTS.md
+PROJECT_CONTEXT.md
+
+# Generated plots and logs.
+*.pdf
+*.png
+*.log
+/figures/
+/figures_bg/
+/figures_true/
+/tables/
+/appendix_e/figures/
+/appendix_e/data/
+
+# Keep only the five small published comparison inputs under figures_b.
+/figures_b/*
+!/figures_b/background_table/
+!/figures_b/background_topk_table/
+!/figures_b/background_sweep/
+!/figures_b/churn_analysis/
+!/figures_b/arrhythmia_analysis/
+/figures_b/background_table/*
+/figures_b/background_topk_table/*
+/figures_b/background_sweep/*
+/figures_b/churn_analysis/*
+/figures_b/arrhythmia_analysis/*
+!/figures_b/background_table/pair_exceedance_counts.csv
+!/figures_b/background_topk_table/pair_exceedance_counts.csv
+!/figures_b/background_sweep/pair_exceedance_counts.csv
+!/figures_b/churn_analysis/summary.json
+!/figures_b/arrhythmia_analysis/summary.json

@@ -1,0 +1,14 @@
+# Saved-result analysis dependencies: pins transcribed from the preserved Linux export.
+# Python 3.12. This is not a newly resolved/tested lockfile or a training environment.
+# Generation and checkpoint loading additionally need environment.yaml (CUDA/PyTorch/models).
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.6.1
+shap==0.48.0
+matplotlib==3.10.8
+seaborn==0.13.2
+SciencePlots==2.2.0
+tqdm==4.67.1
+nbformat==5.10.4
+jupyterlab==4.5.1
